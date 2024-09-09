@@ -1,0 +1,78 @@
+{
+    "@context": {
+        "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+        "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+        "hashAlgorithm": "CIP100:hashAlgorithm",
+        "body": {
+            "@id": "CIP119:body",
+            "@context": {
+                "references": {
+                    "@id": "CIP119:references",
+                    "@container": "@set",
+                    "@context": {
+                        "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+                        "Other": "CIP100:OtherReference",
+                        "label": "CIP100:reference-label",
+                        "uri": "CIP100:reference-uri"
+                    }
+                },
+                "paymentAddress": "CIP119:paymentAddress",
+                "givenName": "CIP119:givenName",
+                "image": {
+                    "@id": "CIP119:image",
+                    "@context": {
+                        "ImageObject": "https://schema.org/ImageObject"
+                    }
+                },
+                "objectives": "CIP119:objectives",
+                "motivations": "CIP119:motivations",
+                "qualifications": "CIP119:qualifications"
+            }
+        }
+    },
+    "hashAlgorithm": "blake2b-256",
+    "body": {
+        "paymentAddress": "addr1q8eh784q7jknkznwa43saj5qu0mtgekvj73e0vsvwgjdr09yjtcuxltzs9r9h3duxafpf2k6w8emjw9adk0hjansr78s4l5dy2",
+        "givenName": "WADA",
+        "image": {
+            "@type": "ImageObject",
+            "contentUrl": "https://raw.githubusercontent.com/WADAlliance/drep/main/wada-logo.png",
+            "sha256": "b3bcf09757c0efa849cbbe5b1b096bc5df43c2bd6fb9e90d12bc39438c798113"
+        },
+        "objectives": "TBA",
+        "motivations": "TBA",
+        "qualifications": "TBA",
+        "references": [
+            {
+                "@type": "Link",
+                "label": "Wada's Website",
+                "uri": "https://wada.org"
+            },
+            {
+                "@type": "Link",
+                "label": "Wada's Twitter",
+                "uri": "https://twitter.com/wadaorg"
+            },
+            {
+                "@type": "Link",
+                "label": "Wada's Telegram",
+                "uri": "https://t.me/wada_org"
+            },
+            {
+                "@type": "Link",
+                "label": "Wada's Youtube Channel",
+                "uri": "https://youtube.com/wada-org"
+            },
+            {
+                "@type": "Link",
+                "label": "Wada's LinkedIn",
+                "uri": "https://linkedin.com/company/wada-org"
+            },
+            {
+                "@type": "Link",
+                "label": "Wada's Linktree",
+                "uri": "https://linktr.ee/wada_org"
+            }
+        ]
+    }
+}
