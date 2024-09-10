@@ -70,6 +70,11 @@
             },
             {
                 "@type": "Link",
+                "label": "Wada's Stakepool",
+                "uri": "https://cexplorer.io/pool/pool1wlmyl6csyc5m9sxezcladq3ttty4hja9mue63dwdh5g7ymucukl"
+            },
+            {
+                "@type": "Link",
                 "label": "Wada's Linktree",
                 "uri": "https://linktr.ee/wada_org"
             }
