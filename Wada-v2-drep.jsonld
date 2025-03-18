@@ -59,8 +59,8 @@
     },
     "image": {
       "@type": "ImageObject",
-      "contentUrl": "https://raw.githubusercontent.com/WADAlliance/drep/main/wada-logo.png",
-      "sha256": "b3bcf09757c0efa849cbbe5b1b096bc5df43c2bd6fb9e90d12bc39438c798113"
+      "contentUrl": "https://raw.githubusercontent.com/WADAlliance/drep/main/wada-logo-2.png",
+      "sha256": "1d3bf7a82424a8be310d831f78bb82d8028f41146b49c98107d9c46592736365"
     },
     "motivations": "Wada's primary motivation as a DRep is to amplify the voices of underrepresented communities and increase their participation in the ecosystem.\n\nBy increasing participation and adoption, we encourage change at the local level, meaning more activity, transactions and overall usage of Cardano as the blockchain of choice.\n\nSince 2020, Wada has been at the forefront of Cardano adoption in Africa, and will continue this effort with your support.",
     "objectives": "As a DRep, we are committed to:\n\n- Securing and maintaining the core infrastructure of Cardano, including SPOs.\n\n- Driving adoption at the ground level through events, workshops and hackathons.\n\n- Supporting developers and entrepreneurs in building the dApps of the future.\n\n- Long-term sustainability through robust governance and treasury management protocols.",
